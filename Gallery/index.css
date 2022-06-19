@@ -143,5 +143,131 @@ body {
     
 }
 
+.containerone {   
+
+    
+    width: 100%;
+    min-height: 60%;
+    padding: 25px 0;
+    display: flex;
+   justify-content: start;
+    align-items: start-flex;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+.cardone {
+    background-color: white;
+    border: 5px solid black;
+    align-items: baseline;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-basis: 180px;
+}
+
+ 
+
+.containera {
+    
+    
+    width: 100%;
+    min-height: 100%;
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-bottom:1px solid ##C0C0C0;
+}
+
+.carda {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    min-width: 320px;
+    min-height: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    flex-basis: 180px;
+    overflow: hidden;
+}
+
+.cardb {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    min-width: 320px;
+    min-height: 40px;
+    margin: 10px;
+    display: flex;
+    
+    align-items: start;
+    flex-basis: 180px;
+    overflow: hidden;
+
+     
+    flex-direction: column;
+  justify-content: start;
+    
+}
+.cardc{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    min-width: 320px;
+    min-height: 40px;
+    margin: 10px;
+    display: flex;
+    
+    align-items: start;
+    flex-basis: 180px;
+    overflow: hidden;   
+    
+    flex-direction: column;
+ 
+  justify-content: flex-start;
+    
+    
+}
+
+.cardd
+ {
+    background-color: blue;
+    border: 5px solid black;
+    border-radius: 5px;
+    min-width: 320px;
+    min-height: 20px;
+    margin: 10px;
+    display: flex;
+    
+    
+    flex-basis: 90px;
+    overflow: hidden;
+
+   align-content: space-between; 
+    flex-direction: column;
+  justify-content: space-between;
+}
+
+.carde
+ {
+    background-color: blue;
+    border: 5px solid black;
+    border-radius: 5px;
+    min-width: 320px;
+    min-height: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: ;
+    flex-basis: 90px;
+    overflow: hidden;
+    
+} 
+
+
 
 
