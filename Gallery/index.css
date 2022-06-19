@@ -78,3 +78,70 @@ body {
     padding: 20px 5px; 
 
 }
+
+.card {
+    min-width: 500px;
+    min-height: 200px;
+    background-color: white;
+    
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+
+.card-title {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+
+
+.card-info {
+    max-width: 500px;
+    
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+   
+.column-left {
+    transform:
+        translateX(200px);
+}
+.column-middle {
+    transform:
+        translateX(200px);
+}
+
+.flex__example1
+{
+ height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start-flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
